@@ -68,7 +68,9 @@ int main()
     }
     printf("%d\n", total);
 
-    totalfloat = (total) / 100; 
+    
+    totalfloat = (total);
+    totalfloat = totalfloat / 100; 
     printf("%.1f\n", totalfloat);
 
 
